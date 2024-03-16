@@ -1,0 +1,14 @@
+{
+  "name": "ticket-regis",
+  "version": "1.0.0",
+  "description": "The Ticketing and Registration App by Alpine JS and Tailwind CSS",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "qrious": "^4.0.2"
+  }
+}
